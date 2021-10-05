@@ -1,4 +1,3 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://karolina-nad.github.io/<repo_name>/)
+# Figma test task
+1. Stack: HTML5, CSS3, SASS, BEM;
+2. Click to link to see [DEMO](https://karolina-nad.github.io/<repo_name>/)
