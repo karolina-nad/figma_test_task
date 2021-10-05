@@ -1,0 +1,125 @@
+.app {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    width: 1130px;
+    height: 95px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    width: 295px;
+    height: 39px;
+  }
+
+  &__header-info {
+    width: 436px;
+  }
+
+  &__header-email {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 356px;
+    height: 20px;    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: end;
+  }
+
+  &__header-data {
+    width: 356px;
+    margin: 0;
+    padding: 0;
+    height: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: end;
+    color: #001;
+    opacity: 0.5;
+  }
+
+  &__sign-out {
+    display: inline-block;
+    width: max-content;
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 9px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #2F8BB2;
+  }
+
+  &__settings {
+    display: flex;
+    width: 258px;
+    height: 43px;
+    margin: auto;
+    margin-top: 12px;
+    margin-right: 0;
+    justify-content: space-between;
+  }
+
+  &__bell-img {
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 42px;
+  }
+
+  &__messages {
+    position: absolute;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background: #EA1B1B;
+    border: 1px solid #EA1B1B;
+    border-radius: 50px;
+  }
+
+  &__select {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    width: 184px;
+    height: 40px;
+    background: #FFFFFF;    
+    border: 1px solid #B7C6CF;
+    border-radius: 4px;
+  }
+
+  &__settings-text {
+    display: inline-block;
+    width: 51px;
+    height: 20px;
+    margin-top: 9px;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+  }
+
+  &__arrow-icon {
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+  }
+}

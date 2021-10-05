@@ -1,0 +1,193 @@
+.app {
+  &__third-section {
+    width: 1128px;
+    height: 680px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 1px 30px -10px rgba(78, 146, 184, 0.2);
+  }
+
+  &__patient {
+    position: relative;
+    width: 1025px;
+    height: 635px;
+    margin: 0 auto;
+  }
+
+  &__patient-info {
+    display: inline-block;
+    width: 449px;
+    height: 635px;
+    border-right: 1px solid rgba(3, 73, 113, 0.2);    
+  }
+
+  &__patient-info-title {
+    width: 207px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #034971;
+  }
+
+  &__list-item {
+    display: flex;
+    height: 20px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+
+    &--1, &--5 {
+      width: 295px;
+    }
+
+    &--2 {
+      width: 325px;
+    }
+
+    &--3, &--4 {
+      width: 278px;
+    }
+
+    &--6 {
+      width: 106px;
+    }
+
+    &--7 {
+      width: 308px;
+    }
+
+    &--9 {
+      width: 87px;
+    }
+
+    &--10 {
+      width: 50px;
+    }
+
+    &--11 {
+      width: 241px;
+    }
+
+    &--8, &--12, &--13, &--14, &--15, &--16, &--17 {
+      width: 341px;
+    }
+  }
+
+  &__list-item-text {
+    display: inline-block;
+    width: max-content;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+
+    &--red {
+      color: rgba(234, 27, 27, 1);
+    }
+  }
+  
+  &__patient-history {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 19px;
+    width: 468px;
+    height: 560px;
+  }
+
+  &__history {
+    box-sizing: border-box;
+    width: 468px;
+    height: 235px;
+    border-bottom: 1px solid rgba(3, 73, 113, 0.2);
+  }
+
+  &__attachments {
+    width: 468px;
+    height: 138px;
+    padding-top: 26px;
+    border-bottom: 1px solid rgba(3, 73, 113, 0.2);
+  }
+
+  &__letters {
+    padding-top: 35px;
+  }
+
+  &__history-title {
+    display: inline;
+    margin: 0;
+  }
+
+  &__history-list-item {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+
+    &--1 {
+      width: 218px;
+    }
+
+    &--2 {
+      width: 412px;
+    }
+
+    &--3, &--4 {
+      width: 371px;
+    }
+  }
+
+  &__history-item-text {
+    width: max-content;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  &__history-status {
+    width: 79px;
+    height: 18px;
+    background: #FFEECD;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  &__submit-button {
+    width: 112px;
+    height: 20px;
+    margin-left: 244px;
+    background: #034971;
+    border-radius: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 8px;
+    color: #fff;
+    border: none;
+  }
+
+  &__att-list-item {
+    width: max-content;
+    height: 16px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #2F8BB2;
+  }
+
+  &__att-status {
+    display: inline-block;
+    width: 110px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+}

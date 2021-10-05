@@ -1,7 +1,20 @@
-@import "utils";
 @import "fonts";
-@import "typography";
+@import "./normalize.scss";
+@import "./block/header.scss";
+@import "./block/first_section.scss";
+@import "./block/second_section.scss";
+@import "./block/third_section.scss";
+@import "./block/fourth_section.scss";
 
-body {
-  background: $c-gray;
+.app {
+  margin:  45px 76px;  
+
+  &__main {
+    width: 1128px;
+    height: 970px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 10px 30px -6px rgba(3, 73, 113, 0.1);
+    border-radius: 8px;
+  } 
 }

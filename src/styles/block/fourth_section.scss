@@ -1,0 +1,32 @@
+.app {
+  &__fourth-section {
+    width: 1128px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  &__fourth-button {
+    box-sizing: border-box;
+    width: max-content;
+    height: 32px;
+    margin-top: 22px;
+    padding: 8px 25px;
+    background: #FFFFFF;
+    border: 1px solid #034971;
+    border-radius: 64px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #034971;
+
+    &--1 {
+      margin-left: 334px;
+    }
+
+    &--2 {
+      margin-left: 23px;
+    }
+  }
+}

@@ -3,11 +3,199 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Referrals</title>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+  <body class="app">
+    <header class="app__header">
+      <div>
+        <img
+          src="./images/logo.svg"
+          alt="App logo"
+          class="app__logo"
+        >
+      </div>
+      <div>
+        <div class="app__header-info">
+          <p class="app__header-email">Hello <b>Test Practice, post code - ivan+practice@ralabs.org</b></p>
+          <p class="app__sign-out">Sign out</p>
+          <p class="app__header-data">Last signed in: 26/01/21, 10:19</p>
+        </div>
+        <div class="app__settings">
+          <div class="app__bell-img">
+            <img
+              src="./images//iconfinder_001_014_bell_ring_sound_alert.svg"
+              alt="Bell icon"
+            >
+            <div class="app__messages">9+</div>
+          </div>
+          <div class="app__select">
+            <p class="app__settings-text">Settings</p>
+            <img
+              src="./images/arrow-down.svg"
+              alt="Arrow down"
+              class="app__arrow-icon"
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="app__main">
+      <section class="app__first-secrion">
+        <div class="app__bg"></div>
+        <div class="app__referrals-menu">
+          <p class="app__title">YOUR REFERRALS</p>
+          <div class="app__menu">
+            <p class="app__menu-text">In Triage</p>
+            <p class="app__menu-text">Completed</p>
+            <p class="app__menu-text">Drafts (1)</p>
+            <p class="app__menu-text">Rejected</p>
+            <p class="app__menu-text">Discharged</p>
+            <p class="app__menu-text">Archived</p>
+          </div>
+        </div>
+        <div class="app__search">
+          <div class="app__search-input">
+            <p class="app__search-text">TST0000422</p>
+            <img
+              src="./images/searh-icon.svg"
+              alt="Search icon"
+              class="app__search-icon"
+            >
+          </div>
+          <button class="app__input-button">Submit Referral</button>
+        </div>
+      </section>
+      <section class="app__second-section">
+        <button class="app__second-section-button">Back to Dashboard</button>
+        <p class="app__second-title">TST0000422</p>
+      </section>
+      <section class="app__third-section">
+        <div class="app__patient">
+          <div class="app__patient-info">
+            <p class="app__patient-info-title">Patient GP Information</p>
+            <ul class="app__patient-list">
+              <li class="app__list-item app__list-item--1">
+                <div class="app__list-item-text"><b>URN:</b></div>
+                <div class="app__list-item-text">TST0000422</div>
+              </li>
+              <li class="app__list-item app__list-item--2">
+                <div class="app__list-item-text"><b>Patient:</b></div>
+                <div class="app__list-item-text">dasdasd sadsadsad</div>
+              </li>
+              <li class="app__list-item app__list-item--3">
+                <div class="app__list-item-text"><b>Patient's DOB:</b></div>
+                <div class="app__list-item-text">11/11/90</div>
+              </li>
+              <li class="app__list-item app__list-item--4">
+                <div class="app__list-item-text"><b>Referral Entered the System:</b></div>
+                <div class="app__list-item-text">16/10/20</div>
+              </li>
+              <li class="app__list-item app__list-item--5">
+                <div class="app__list-item-text"><b>Practice Address:</b></div>
+                <div class="app__list-item-text">test_practice</div>
+              </li>
+              <li class="app__list-item app__list-item--6">
+                <div class="app__list-item-text"><b>Practice Telephone:</b></div>
+                <div class="app__list-item-text"></div>
+              </li>
+              <li class="app__list-item app__list-item--7">
+                <div class="app__list-item-text"><b>Referrer:</b></div>
+                <div class="app__list-item-text">sdfsdfsd sfsdffa</div>
+              </li>
+              <li class="app__list-item app__list-item--8">
+                <div class="app__list-item-text"><b>Referral Reason:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--9">
+                <div class="app__list-item-text"><b>Clinical Activity:</b></div>
+                <div class="app__list-item-text"></div>
+              </li>
+              <li class="app__list-item app__list-item--10">
+                <div class="app__list-item-text"><b>Receiver:</b></div>
+                <div class="app__list-item-text"></div>
+              </li>
+              <li class="app__list-item app__list-item--11">
+                <div class="app__list-item-text"><b>Radiographs:</b></div>
+                <div class="app__list-item-text app__list-item-text--red">No</div>
+              </li>
+              <li class="app__list-item app__list-item--12">
+                <div class="app__list-item-text"><b>Primary care choice:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--13">
+                <div class="app__list-item-text"><b>Secondary care choice:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--14">
+                <div class="app__list-item-text"><b>Tertiary care choice:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--15">
+                <div class="app__list-item-text"><b>Triage Date:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--16">
+                <div class="app__list-item-text"><b>Comments to Referrer:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+              <li class="app__list-item app__list-item--17">
+                <div class="app__list-item-text"><b>Comments from Triager:</b></div>
+                <div class="app__list-item-text">Urgent 2WW Referral</div>
+              </li>
+            </ul>
+          </div>
+          <div class="app__patient-history">
+            <div class="app__history">
+              <div class="app__patient-info-title">Referral Status History</div>
+              <ul class="app__history-list">
+                <li class="app__history-list-item app__history-list-item--1">
+                  <div class="app__history-item-text"><b>16 Oct 2020</b></div>
+                  <div class="app__history-item-text">Received</div>
+                </li>
+                <li class="app__history-list-item app__history-list-item--2">
+                  <div class="app__history-item-text"><b>16 Oct 2020</b></div>
+                  <div class="app__history-item-text">Sent to: AINTREE HSCHOSPITAL<br>
+                    16 Oct 2020, 09:12 Provider received referral</div>
+                </li>
+                <li class="app__history-list-item app__history-list-item--3">
+                  <div class="app__history-item-text"><b>16 Oct 2020</b></div>
+                  <div class="app__history-item-text">Rejected: No X-rays ( Rejection letter )</div>
+                </li>
+                <li class="app__history-list-item app__history-list-item--4">
+                  <div class="app__history-item-text"><b>16 Oct 2020</b></div>
+                  <div class="app__history-status">current status</div>
+                  <div class="app__history-item-text">Rejected: No X-rays ( Rejection letter )</div>
+                </li>
+              </ul>
+              <button class="app__submit-button">Re-submit forms</button>
+            </div>
+            <div class="app__attachments">
+              <div class="app__patient-info-title">Attachments</div>
+              <ul class="app__attahment-list">
+                <li class="app__att-list-item">TST0000422_2YahNationalUrgentReferralForm.pdf</li>
+                <li class="app__att-list-item">TST0000422_MedicalHistoryForm.pdf</li>
+              </ul>
+            </div>
+            <div class="app__letters">
+              <div class="app__patient-info-title">All Rejection Letters</div>
+              <ul class="app__attahment-list">
+                <li class="app__att-list-item">
+                  Rejection Letter (16/10/20, 14:29)
+                  <div class="app__history-status app__att-status">latest rejection letter</div>
+                </li>
+                <li class="app__att-list-item">Rejection Letter (16/10/20, 15:29)</li>
+                <li class="app__att-list-item">Rejection Letter (16/10/20, 09:21)</li>
+                <li class="app__att-list-item">Rejection Letter (16/10/20, 09:13)</li>  
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="app__fourth-section">
+        <button class="app__fourth-button app__fourth-button--1">Download attachments as single PDF</button>
+        <button class="app__fourth-button app__fourth-button--2">Add Information</button>
+      </section>
+    </main>
   </body>
 </html>
